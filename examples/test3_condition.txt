@@ -1,0 +1,10 @@
+sayı ogrenci_yasi;
+sayı resit_mi;
+
+ogrenci_yasi = 20;
+
+eğer (ogrenci_yasi > 17) {
+    resit_mi = 1;
+} değilse {
+    resit_mi = 0;
+}

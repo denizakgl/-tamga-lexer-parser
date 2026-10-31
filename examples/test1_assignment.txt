@@ -1,0 +1,5 @@
+sayı sayaç;
+sayı toplam_değer;
+
+sayaç = 5;
+toplam_değer = 10;

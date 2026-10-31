@@ -1,0 +1,10 @@
+sayı i;
+sayı toplam;
+
+i = 0;
+toplam = 0;
+
+iken (i < 10) {
+    toplam = toplam + i;
+    i = i + 1;
+}

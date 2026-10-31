@@ -1,0 +1,2 @@
+sayı 1sayac;
+toplam_deger = 5

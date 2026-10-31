@@ -1,0 +1,8 @@
+sayı vize_notu;
+sayı final_notu;
+sayı ortalama;
+
+vize_notu = 60;
+final_notu = 80;
+
+ortalama = (vize_notu * 40) / 100 + (final_notu * 60) / 100;

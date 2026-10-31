@@ -1,0 +1,22 @@
+<program>            ::= <statement_list>
+<statement_list>     ::= <statement> { <statement> }
+<statement>          ::= <declaration> | <assignment> | <conditional> | <loop>
+
+<declaration>        ::= "sayı" <identifier> ";"
+<assignment>         ::= <identifier> "=" <expr> ";"
+
+<conditional>        ::= "eğer" "(" <condition> ")" "{" <statement_list> "}" [ "değilse" "{" <statement_list> "}" ]
+<loop>               ::= "iken" "(" <condition> ")" "{" <statement_list> "}"
+
+<condition>          ::= <expr> <relational_op> <expr>
+<relational_op>      ::= "<" | ">" | "=="
+
+<expr>               ::= <term> { ("+" | "-") <term> }
+<term>               ::= <factor> { ("*" | "/") <factor> }
+<factor>             ::= <identifier> | <int_literal> | "(" <expr> ")"
+
+<identifier>         ::= <letter> { <letter> | <digit> }
+<int_literal>        ::= <digit> { <digit> }
+
+<letter>             ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z" | "ç" | "ğ" | "ı" | "ö" | "ş" | "ü" | "Ç" | "Ğ" | "İ" | "Ö" | "Ş" | "Ü" | "_"
+<digit>              ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
