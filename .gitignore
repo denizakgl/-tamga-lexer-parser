@@ -1,0 +1,21 @@
+# Java build output
+*.class
+/build/
+/classes/
+/dist/
+/out/
+/target/
+
+# Local IDE configuration
+/nbproject/private/
+/.idea/
+*.iml
+/.vscode/
+
+# Editor and operating-system files
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
