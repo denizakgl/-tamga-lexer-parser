@@ -18,5 +18,5 @@
 <identifier>         ::= <letter> { <letter> | <digit> }
 <int_literal>        ::= <digit> { <digit> }
 
-<letter>             ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z" | "ç" | "ğ" | "ı" | "ö" | "ş" | "ü" | "Ç" | "Ğ" | "İ" | "Ö" | "Ş" | "Ü" | "_"
-<digit>              ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<letter> ::= ? Java Character.isLetter(char) ? | "_"
+<digit>  ::= ? Java Character.isDigit(char) ?
