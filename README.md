@@ -42,6 +42,21 @@ iken (sayaç < 3) {
 
 The analyzer validates the structure of this program; it does not execute the loop.
 
+## Actual Program Output
+
+The following output was captured by running `examples/test1_assignment.txt` with OpenJDK 21 in IntelliJ IDEA.
+
+```text
+--- Parsing Process Started ---
+-> Parsing declaration statement: sayı
+-> Parsing declaration statement: sayı
+-> Parsing assignment statement: sayaç
+-> Parsing assignment statement: toplam_değer
+--- SUCCESS: Code is syntactically completely valid! ---
+```
+
+The program successfully completed lexical and syntax analysis, including basic declared-identifier checks. This does not indicate execution of the input program.
+
 ## Supplied examples
 
 | File | Purpose | Expected result |
