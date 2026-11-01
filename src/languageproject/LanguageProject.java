@@ -20,7 +20,7 @@ public class LanguageProject {
         }
 
         System.out.println("==============================================");
-        System.out.println("   TAMGA PROGRAMMING LANGUAGE COMPILER ENGINE   ");
+        System.out.println("   TAMGA LEXER AND RECURSIVE-DESCENT PARSER   ");
         System.out.println("==============================================");
         System.out.println("Analyzed File: " + file.getPath());
         System.out.println();
