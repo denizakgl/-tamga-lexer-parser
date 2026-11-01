@@ -7,7 +7,7 @@ TAMGA checks source programs for lexical and syntax errors and performs basic de
 ## Features
 
 - Turkish keywords: `sayı` (integer declaration), `eğer` (if), `değilse` (else), and `iken` (while).
-- Identifiers with Turkish letters and underscores, and integer literals.
+- Identifiers support Unicode letters (including Turkish characters), underscores, and digits after the first character. Integer literals use characters recognized by Java's Character.isDigit().
 - Variable declarations and assignments.
 - Arithmetic expressions with parentheses and operator precedence.
 - Comparisons using `<`, `>` and `==`.
